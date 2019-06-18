@@ -271,7 +271,7 @@ class MainScreen extends React.Component {
   }
   render() {
     return (
-      <ScrollView>
+      <ScrollView style={styles.container}>
       <View>
         <Text
           style={{ fontSize: 20, margin: 10 }}>나에게 호감을 보낸 이성</Text>
